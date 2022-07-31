@@ -18,9 +18,9 @@ const App: FC = () => {
 	const { isShowHeader } = useAppSelector((state) => state.appReducer)
   const [isDrop, setIsDrop] = useState<boolean>(false)
 
-	// useEffect(() => {
-	//   navigate('/')
-	// }, [])
+	useEffect(() => {
+	  navigate('/')
+	}, [])
 
 	return (
 		<div className="app">
